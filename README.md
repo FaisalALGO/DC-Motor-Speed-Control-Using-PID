@@ -64,3 +64,6 @@ At each speed, the motor holds for 5 seconds before moving to the next target.
 ##  Usage
 To use this project, upload the provided code to your Arduino Uno. Ensure all components are connected as per the wiring diagram, and provide adequate power to the motor driver.
 
+## Demo Video
+
+[Watch the demo video](path/to/your-video.mp4)

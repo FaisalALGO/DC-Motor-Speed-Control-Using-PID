@@ -13,7 +13,7 @@ CC = avr-gcc
 CFLAGS = -Os -DF_CPU=$(F_CPU) -mmcu=$(MCU)
 
 # Source files
-SRC = p3.c
+SRC = pid_speed_control.c
 
 # Object files
 OBJ = $(SRC:.c=.o)

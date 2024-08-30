@@ -66,4 +66,4 @@ To use this project, upload the provided code to your Arduino Uno. Ensure all co
 
 ## Demo Video
 
-[Watch the demo video](demo_video.mp4)
+[Watch the demo video](output_25MB.mp4)

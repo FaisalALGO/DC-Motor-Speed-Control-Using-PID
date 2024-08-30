@@ -185,6 +185,7 @@ void initTimer1(void) {
     TCCR1B |= (1 << CS11) | (1 << CS10);
 }
 
+//executes every 10ms
 ISR(TIMER1_COMPA_vect) {
     timer1_count++;
     if (timer1_count >= 10){
@@ -208,6 +209,8 @@ ISR(TIMER1_COMPA_vect) {
     print_time +=timer1_count;
     timer1_count = 0;
     }
+    
+    //print to terminal every half a second
     if (print_time >= 50){
      transmit_string("Targeted Speed (RPM): ");
      uart_print_float(target_rpm);
@@ -223,6 +226,7 @@ ISR(TIMER1_COMPA_vect) {
      print_time = 0;
 
     }
+    //update state every 5 seconds
     if (state_time >= 500){
         //previous_state_time = timer1_count;  
         current_state += 1;

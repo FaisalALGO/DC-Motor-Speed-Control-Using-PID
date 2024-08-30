@@ -32,7 +32,7 @@ PID Tuning
 The PID controller was tuned to achieve smooth and stable motor operation across all RPM setpoints. It minimizes overshoot and settling time, ensuring accurate control over motor speed.
 
 ## Wiring Diagram
-(Include a wiring diagram here showing the connections between the Arduino, motor, encoder, and motor driver.)
+<img src="wiring_diagram.jpg" alt="Wiring Diagram" width="300" height="300" />
 
 ## How It Works
 The Arduino Uno continuously reads the encoder values to determine the motor's current speed.

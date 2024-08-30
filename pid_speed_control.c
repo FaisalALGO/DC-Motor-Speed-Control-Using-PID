@@ -201,7 +201,7 @@ ISR(TIMER1_COMPA_vect) {
     } else if (control_signal > 255.0) {
     control_signal = 255.0;
     }
-    pwm_value = (int16_t) control_signal;//casting control signal from float to unsigned 8-bit integer
+    pwm_value = (int16_t) control_signal;//casting control signal from float to 16-bit integer
     PWM(pwm_value);
     count = 0;
 

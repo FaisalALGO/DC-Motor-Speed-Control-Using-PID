@@ -66,4 +66,7 @@ To use this project, upload the provided code to your Arduino Uno. Ensure all co
 
 ## Demo Video
 
-[Watch the demo video](output_25MB.mp4)
+https://github.com/user-attachments/assets/681f1b5e-a0ca-43f8-aca1-042f6f05c41c
+
+
+
